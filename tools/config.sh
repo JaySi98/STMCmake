@@ -1,5 +1,13 @@
 #!/bin/sh
 
-cmake -S . -B build \
-    -DCMAKE_BUILD_TYPE=Debug \
+source=$1
+build=$2
+type=$3
+
+echo "source: " $source
+echo "build: " $build
+echo "type: " $type
+
+cmake -S $source -B $build \
+    -DCMAKE_BUILD_TYPE=$type \
     -DCMAKE_TOOLCHAIN_FILE=cmake/gcc-arm-none-eabi.cmake
