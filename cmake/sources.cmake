@@ -35,11 +35,6 @@ set(CUBEMX_INCLUDE_DIRECTORIES
 
 
 set(STM32CUBEMX_SOURCES
-    # cubeMX/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c
-    # cubeMX/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c
-    # cubeMX/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c
-    # cubeMX/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c
-
     cubeMX/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
     cubeMX/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
     cubeMX/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c

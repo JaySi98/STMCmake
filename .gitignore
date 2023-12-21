@@ -1,8 +1,6 @@
-[Bb]uild/*
-[Dd]ocs/*
-CMakeCache.*
-CMakeFiles/*
-[Tt]esting/*
+
+### User definitions
+tools/temp.mak
 
 ### VisualStudioCode ###
 .vscode/*
@@ -33,6 +31,11 @@ CMakeFiles/*
 mono_crash.*
 
 # Build results
+[Bb]uild/*
+[Dd]ocs/*
+CMakeCache.*
+CMakeFiles/*
+[Tt]esting/*
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
