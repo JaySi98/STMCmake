@@ -53,7 +53,7 @@ target_include_directories(
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
     PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/src
-    ${CUBEMX_INCLUDE_DIRECTORIES}
+    ${STM32CUBEMX_INCLUDE_DIRECTORIES}
 )
 
 target_compile_options(${PROJECT_NAME} PRIVATE
