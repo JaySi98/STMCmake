@@ -10,4 +10,5 @@ echo "type: " $type
 
 cmake -S $source -B $build \
     -DCMAKE_BUILD_TYPE=$type \
-    -DCMAKE_TOOLCHAIN_FILE=cmake/gcc-arm-none-eabi.cmake
+    -DCMAKE_TOOLCHAIN_FILE=cmake/gcc-arm-none-eabi.cmake \
+    -DCMAKE_EXPORT_COMPILE_COMMANDS=1
