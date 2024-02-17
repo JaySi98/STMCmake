@@ -75,6 +75,9 @@ target_link_options(${PROJECT_NAME} PRIVATE
     -Wl,--print-memory-usage
 )
 
+# Add linker flags for the math library (-lm) and the standard C library (-lc)
+target_link_libraries(${PROJECT_NAME} m c)
+
 message(STATUS "Added all header and source files.\n")
 
 # ===========================
